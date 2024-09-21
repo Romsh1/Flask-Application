@@ -1,3 +1,3 @@
-from app import flask_app
+from app import app
 
-flask_app.run(host="0.0.0.0", port=5000)
+app.run(host="0.0.0.0", port=5000)

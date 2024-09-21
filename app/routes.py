@@ -1,10 +1,10 @@
-from app import flask_app
+from app import app
 
-@flask_app.route("/index")
-@flask_app.route("/")
+@app.route("/index")
+@app.route("/")
 def index():
     return "Hello World!"
 
-@flask_app.route("/dashboard")
+@app.route("/dashboard")
 def dashboard():
     return "This is dashboard"
